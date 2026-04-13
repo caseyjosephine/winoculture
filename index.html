@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winoculture</title>
+    <style>
+      :root {
+        --bg: #0f0e11;
+        --ink: #f3f0f5;
+        --muted: #b8b2bd;
+        --accent: #7a1c2e;
+        --line: #2a2730;
+        --max: 720px;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--ink);
+        background: #0f0e11;
+        line-height: 1.6;
+      }
+
+      .wrap {
+        width: min(calc(100% - 2rem), var(--max));
+        margin: 0 auto;
+        padding: 3rem 0;
+      }
+
+      h1 {
+        font-size: clamp(2.2rem, 5vw, 3.5rem);
+        line-height: 1.1;
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        margin-bottom: 1.5rem;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+
+      .logo {
+        font-weight: 900;
+        margin-bottom: 3rem;
+        line-height: 1;
+      }
+
+      .logo span {
+        display: inline-block;
+        margin: 2px;
+        padding: 6px 10px;
+        font-size: 1.5rem;
+        font-weight: 900;
+        background: #ff4d6d;
+        color: #111;
+        transform: rotate(var(--r));
+      }
+
+      .divider {
+        border-top: 1px solid var(--line);
+        margin: 3rem 0;
+      }
+
+      .section-title {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        margin-bottom: 1rem;
+        color: var(--accent);
+      }
+
+      .callout {
+        color: var(--ink);
+      }
+
+      .cta {
+        margin-top: 2rem;
+        font-style: italic;
+        color: var(--ink);
+      }
+
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+
+      <!-- LOGO -->
+      <div class="logo">
+        <div>
+          <span style="--r:-4deg">W</span>
+          <span style="--r:3deg">I</span>
+          <span style="--r:-2deg">N</span>
+          <span style="--r:2deg">O</span>
+        </div>
+        <div>
+          <span style="--r:-1deg">C</span>
+          <span style="--r:3deg">U</span>
+          <span style="--r:-4deg">L</span>
+          <span style="--r:2deg">T</span>
+          <span style="--r:-2deg">U</span>
+          <span style="--r:2deg">R</span>
+          <span style="--r:-3deg">E</span>
+        </div>
+      </div>
+
+      <!-- HERO -->
+      <h1>Wine media is boring. But it doesn't have to be.</h1>
+
+      <p>
+        The staid wine industry old guard is out of touch, condescending, and, frankly, boring as shit. Which is impressive, considering they’ve taken the raw ingredients of a bacchanal and focus-grouped them into [INSERT GENERIC LUXURY BRANDING HERE].
+      </p>
+
+      <p>
+        The industry keeps holding breakout sessions about “storytelling” at every major professional conference, but nothing changes. We keep rehashing the same story about old world traditions and quality over quantity, complete with the same stock photo of a pair of hands holding freshly harvested grapes.
+      </p>
+
+      <p>
+        There’s an irony here. A new generation of winemakers is producing genuinely interesting, boundary-pushing wines, and younger hospitality professionals are more candid, more direct, and far less interested in playing along. But that world is mostly accessible to people willing to look past the industry’s toxic positivity and questionable branding.
+      </p>
+
+      <p class="callout">
+        If you want to pull back the veil—if you suspect there’s something more interesting happening beneath the surface—come revel with us.
+      </p>
+
+      <div class="divider"></div>
+
+      <!-- MANIFESTO -->
+      <div class="section-title">Manifesto</div>
+
+      <p>
+        Wine belongs to all of us. It’s part of our cultural inheritance, regardless of where we come from. Trace any lineage back far enough and you’ll find a polytheistic tradition with a god or goddess of wine—and they’re always the fun ones.
+      </p>
+
+      <p>
+        We believe there’s more to wine than a list of notes—black fruit, tobacco, cedar, repeat. Reducing complex sensory experiences into tidy bullet points flattens what makes them worth having in the first place. It’s more rewarding, if messier, to let the complexity lead.
+      </p>
+
+      <p>
+        Democratizing wine means taking power away from the multinational conglomerates and one-percenters who control production, distribution, and access. We do wine a disservice when we treat it like a rarefied status symbol. We all deserve a taste.
+      </p>
+
+      <div class="divider"></div>
+
+      <!-- IN PROGRESS -->
+      <div class="section-title">In Progress</div>
+
+      <p>Wine Will Absolutely Cause Cancer. Or It Won’t.</p>
+      <p>Invisible Terroirs</p>
+      <p>How Chardonnay Became the "Not Like Other Girls" of Wine</p>
+      <p><em>In The Weeds</em></p>
+      <p>Pairing international wine varietals with must have vinyl records so that you can be even more insufferable at your next dinner party</p>
+
+      <div class="divider"></div>
+
+      <!-- CONTRIBUTE -->
+      <div class="section-title">Contribute</div>
+
+      <p>
+        If you’ve worked in a tasting room, a restaurant, a winery, or anywhere in the strange theater of hospitality—you’ve probably seen something worth telling.
+      </p>
+
+      <p class="cta">
+        Tell us.
+      </p>
+
+    </main>
+  </body>
+</html>
